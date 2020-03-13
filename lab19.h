@@ -65,7 +65,6 @@ void Unit::newTurn(){
 
 //Write Function Member attack(), beAttacked(), heal(), guard() and isDead() here
 int Unit :: attack(Unit &tar){
-	tar.beAttacked(atk);
 	return tar.beAttacked(atk);
 }
 int Unit :: beAttacked(int oppatk){
